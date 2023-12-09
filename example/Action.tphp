@@ -1,0 +1,18 @@
+<?php
+
+# For create use command
+# php ./good-JianYang template="example/Action.tphp" className="PostCreate" actionName="PostCreate"
+
+namespace {namespace}
+
+class {className}Action
+{
+    {% if actionName exist %}
+    private const ACTION = "{actionName}"
+    {% endif %}
+
+    public function run(): void
+    {
+        // ...
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "tiutnev0/good-jian-yang",
+    "description": "Good Jian Yang - Jian Yang will help you create the code for you | ??????????",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tiutnev0\\GoodJianYang\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Tiutnev",
+            "email": "artem.tiutnev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
