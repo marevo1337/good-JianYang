@@ -3,12 +3,12 @@
 # For create use command
 # php ./good-JianYang template="example/Action.tphp" className="PostCreate" actionName="PostCreate"
 
-namespace {show namespace}
+namespace {% show namespace %}
 
-class {show className}Action
+class {% show className %}Action
 {
-    {% if-set actionName %}
-    private const ACTION = "{actionName}"
+    {% if actionName %}
+    private const ACTION = "{% show actionName %}"
     {% endif %}
 
     public function run(): void
